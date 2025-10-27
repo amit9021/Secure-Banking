@@ -9,8 +9,6 @@
 
 > A full-stack MERN (MongoDB, Express.js, React, Node.js) banking application with JWT authentication, real-time balance tracking, and secure money transfers.
 
-[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [API](#-api-reference) • [Contributing](#-contributing)
-
 ---
 
 ## 📋 Table of Contents
@@ -19,18 +17,12 @@
 - [Features](#-features)
 - [Quick Start](#-quick-start)
 - [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
 - [Prerequisites](#-prerequisites)
-- [Project Structure](#-project-structure)
-- [Configuration](#-configuration)
 - [Development](#-development)
 - [Testing](#-testing)
 - [Deployment](#-deployment)
 - [API Reference](#-api-reference)
 - [Security](#-security)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
 
 ---
 
