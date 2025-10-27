@@ -1,0 +1,544 @@
+.button:hover {
+  background: linear-gradient(45deg, #3b82f6 0%, #2563eb 100%);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.logOutButton:hover {
+  background: linear-gradient(45deg, #ff6666 0%, #cc0000 100%);
+  background-color: #fc0000;
+  color: white;
+  border-color: transparent;
+}
+
+.registerButton:hover {
+  background-color: #2563eb;
+  background: linear-gradient(45deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+.loginButton:hover,
+.submitButton:hover {
+  background: linear-gradient(45deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  background-color: white;
+}
+
+.submitButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.homePage {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Inter, sans-serif;
+  font-weight: 900;
+  background: linear-gradient(
+    135deg,
+    #f0f9ff 0%,
+    #e6f6fe 25%,
+    #f0f0ff 50%,
+    #fff0f9 75%,
+    #fff5f5 100%
+  );
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.5);
+  margin-bottom: 68px;
+}
+.Balance {
+  font-size: 20px;
+  background: linear-gradient(
+    45deg,
+    #4f46e5 0%,
+    #3b82f6 50%,
+    #06b6d4 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f9ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.pageHeader {
+  width: 100%;
+  overflow: hidden;
+  font-size: 62px;
+  color: #5ea0ab;
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    #4f46e5 0%,
+    #3b82f6 50%,
+    #06b6d4 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+@media (max-width: 991px) {
+  .pageHeader {
+    font-size: 40px;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.welcomeMessage {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  align-self: center;
+  margin-top: 21px;
+  background: -moz-radial-gradient(45deg, #4de3fd 0%, #006aff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  line-height: 3;
+  text-align: center; /* Center align the text */
+  padding-left: 20%; /* Add padding for better spacing */
+  padding-right: 20%;
+ 
+  
+  
+  
+}
+
+@media (max-width: 991px) {
+  .welcomeMessage {
+    max-width: 100%;
+  }
+}
+
+.error
+{
+  color: crimson;
+}
+
+.pageFooter {
+  display: flex;
+  margin-top: 80px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 25px 70px 477px;
+}
+
+@media (max-width: 991px) {
+  .pageFooter {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px 100px;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  margin-bottom: -95px;
+  width: 574px;
+  max-width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+  .buttonContainer {
+    margin-bottom: 10px;
+  }
+}
+
+.button {
+  overflow: hidden;
+  flex-grow: 1;
+  width: fit-content;
+  border-radius: 8px;
+  border: 1px solid #3b82f6;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 22px 57px;
+  color: #3b82f6;
+  background: #ffffff;
+}
+
+
+
+@media (max-width: 991px) {
+  .button {
+    padding: 0 20px;
+  }
+}
+
+.loginButton {
+  color: #3b82f6;
+  background: linear-gradient(45deg, #ffffff 0%, #f0f7ff 100%);
+}
+
+.logOutButton {
+  color: #ffffff;
+  background: linear-gradient(45deg, #ffcccc 0%, #ff6666 100%);
+}
+
+.registerButton {
+  background-color: #3b82f6;
+  color: #fff;
+  white-space: nowrap;
+  background: linear-gradient(45deg, #3b82f6 0%, #2563eb 100%);
+  border: 1px solid transparent;
+}
+
+@media (max-width: 991px) {
+  .registerButton {
+    white-space: initial;
+  }
+}
+
+.formPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.formTitle {
+  font-size: 32px;
+  background: linear-gradient(
+    45deg,
+    #4f46e5 0%,
+    #3b82f6 50%,
+    #06b6d4 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  cursor: pointer;
+}
+.LogOut {
+   width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #f18489 0%, #ff0000 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.backLink {
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+.registerPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #f0f9ff 0%,
+    #e6f6fe 25%,
+    #f0f0ff 50%,
+    #fff0f9 75%,
+    #fff5f5 100%
+  );
+}
+
+@media (max-width: 640px) {
+  .registerPage {
+    padding: 20px;
+  }
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  max-width: 500px;
+  margin: 20px auto;
+  gap: 24px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1),
+    0 8px 10px -6px rgba(59, 130, 246, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+@media (max-width: 640px) {
+  .registerForm {
+    padding: 30px 20px;
+    margin: 10px auto;
+  }
+}
+
+.registerTitle {
+  font-size: 36px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    45deg,
+    #4f46e5 0%,
+    #3b82f6 50%,
+    #06b6d4 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .registerTitle {
+    font-size: 28px;
+  }
+}
+
+.registerInput {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 2px solid #e2e8f0;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.registerButton {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.registerBackLink {
+  color: #3b82f6;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.otpPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 90%;
+}
+
+.otpPopup form {
+  display: flow-root;
+  flex-direction: row;
+  gap: 50px;
+  
+}
+
+.otpPopup input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+}
+
+.otpPopup button {
+  padding: 10px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.otpPopup button:hover {
+  background-color: #2563eb;
+}
+.transactionContainer {
+  font-size: 16px;
+  background: linear-gradient(
+    45deg,
+    #4f46e5 0%,
+    #3b82f6 50%,
+    #06b6d4 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+.section {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.homeSection {
+  padding: 20px; /* Add padding for better spacing */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background */
+  margin: 20px 0; /* Add margin for spacing */
+  text-align: center; /* Center align the text */
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px;
+  background: linear-gradient(45deg, #4f46e5 0%, #3b82f6 50%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.transactionList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease;
+}
+
+
+
+.description {
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.date {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.amount {
+  font-weight: 600;
+}
+.transactionList {
+ 
+  
+  max-height: 50vh;
+  overflow-y: auto;
+  
+}
+
+.transactionListItem {
+  display: flex;
+  text-align: center;
+  
+  
+}
+
+.transactionListItem:hover {
+  background-color: #f0f9ff3b;
+  
+
+}
+.DashboardContainer {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  
+  gap: 20px;
+  
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  
+  
+  
+}
+
+.logoContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.logoSmall {
+  width: 20%;
+  height: 20%;
+}
+
+

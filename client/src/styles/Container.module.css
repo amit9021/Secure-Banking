@@ -1,0 +1,43 @@
+.mainContainer {
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contentWrapper {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    padding: 10px;
+  }
+
+  .contentWrapper {
+    padding: 10px;
+  }
+
+  .section {
+    padding: 20px;
+  }
+}

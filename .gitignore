@@ -1,0 +1,118 @@
+# Secure Banking - Monorepo .gitignore
+
+# ==========================================
+# Dependencies
+# ==========================================
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+/.pnp
+.pnp.js
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Keep .env.example files
+!.env.example
+!**/.env.example
+
+# ==========================================
+# Build & Distribution
+# ==========================================
+dist/
+build/
+**/build/
+**/dist/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+coverage/
+**/coverage/
+.nyc_output/
+*.lcov
+
+# ==========================================
+# Database Files
+# ==========================================
+DB/
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# IDE & Editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.vs/
+.history/
+
+# ==========================================
+# Operating System
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Docker
+# ==========================================
+docker-compose.override.yml
+
+# ==========================================
+# Temporary Files
+# ==========================================
+tmp/
+temp/
+.cache/
+
+# ==========================================
+# Git Backup
+# ==========================================
+.git_backup/
+
+# ==========================================
+# Documentation Build
+# ==========================================
+docs/_build/
+docs/.doctrees/
+
+# ==========================================
+# Misc
+# ==========================================
+*.bak
+*.orig
+*.rej
+*~
